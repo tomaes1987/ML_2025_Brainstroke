@@ -26,3 +26,17 @@ projekt/
 ├── requirements.txt        # lista bibliotek
 ├── README.md               # opis projektu
 └── .gitignore              # ignorowane pliki
+
+
+def scale_features(df, features):
+    """
+    Standaryzuje wybrane kolumny danych.
+
+    Args:
+        df (pd.DataFrame): dane wejściowe
+        features (list of str): nazwy kolumn do standaryzacji
+
+    Returns:
+        pd.DataFrame: dane z przeskalowanymi kolumnami
+    """
+    ...
