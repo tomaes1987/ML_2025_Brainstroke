@@ -21,3 +21,6 @@ packages/
 # System
 .DS_Store
 Thumbs.db
+
+# Environment files
+venv/
