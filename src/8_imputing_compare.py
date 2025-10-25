@@ -4,16 +4,16 @@ import matplotlib.pyplot as plt
 from scipy.stats import ks_2samp
 import os
 
-df_train = pd.read_csv("data/processed/df_train.csv")
+df_train_encoded = pd.read_csv("data/processed/df_train_encoded.csv")
 df_imput_knn = pd.read_csv("data/processed/df_imput_knn.csv") 
 df_imput_reg = pd.read_csv("data/processed/df_imput_reg.csv") 
 
 plt.figure(figsize=(10,6))
-sns.kdeplot(df_train['bmi'], color='red', label='Before Imputation', fill=True, alpha=0.25, linewidth=1.25)   # KDE curves
+sns.kdeplot(df_train_encoded['bmi'], color='red', label='Before Imputation', fill=True, alpha=0.25, linewidth=1.25)   # KDE curves
 sns.kdeplot(df_imput_knn['bmi'], color='royalblue', label='KNN Imputation', fill=True, alpha=0.25, linewidth=1.25)
 sns.kdeplot(df_imput_reg['bmi'], color='seagreen', label='Regression Imputation', fill=True, alpha=0.25, linewidth=1.25)
 
-plt.axvline(df_train['bmi'].median(), color='red', linestyle='--', linewidth=1)   # median lines
+plt.axvline(df_train_encoded['bmi'].median(), color='red', linestyle='--', linewidth=1)   # median lines
 plt.axvline(df_imput_knn['bmi'].median(), color='royalblue', linestyle='--', linewidth=1)
 plt.axvline(df_imput_reg['bmi'].median(), color='seagreen', linestyle='--', linewidth=1)
 
@@ -27,7 +27,7 @@ plt.show()
 
 print("Summary comparison (mean ± std):")
 print(pd.DataFrame({
-    'Original': [df_train['bmi'].mean(), df_train['bmi'].std()],
+    'Original': [df_train_encoded['bmi'].mean(), df_train_encoded['bmi'].std()],
     'KNN': [df_imput_knn['bmi'].mean(), df_imput_knn['bmi'].std()],
     'Regression': [df_imput_reg['bmi'].mean(), df_imput_reg['bmi'].std()]
 }, index=['Mean', 'Std']).round(2))
@@ -38,7 +38,7 @@ print(pd.DataFrame({
 # which usually indicates a more realistic representation of the population.
 
 # KS test (Kolmogorov–Smirnov test)
-bmi_original = df_train['bmi'].dropna()  # droping of NaN in order to compare
+bmi_original = df_train_encoded['bmi'].dropna()  # droping of NaN in order to compare
 bmi_knn = df_imput_knn['bmi']
 bmi_reg = df_imput_reg['bmi']
 
@@ -64,9 +64,8 @@ else:
 # The KNN imputation again showed slightly better alignment with the original data (KS = 0.0099 vs 0.0157), 
 # suggesting a more faithful reconstruction of the BMI distribution.
 
-df_train_imputed = df_train.copy()
+df_train_imputed = df_train_encoded.copy()
 df_train_imputed['bmi'] = df_imput_knn['bmi']
-
 
 df_train_imputed.to_csv("data/processed/df_train_imputed.csv", index=False)    
 print("\nSaved BMI imputed train dataset as data/processed/df_train_imputed.csv")
