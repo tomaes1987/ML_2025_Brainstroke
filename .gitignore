@@ -24,3 +24,8 @@ Thumbs.db
 
 # Environment files
 venv/
+
+# Folders
+Tomek/
+__pycache__/
+catboost_info/

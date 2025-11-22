@@ -1,0 +1,1023 @@
+gender,hypertension,heart_disease,ever_married,work_type,Residence_type,smoking_status,bmi_clinical_bin,avg_glucose_level_clinical_bin,age_clinical_bin
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,adult
+Female,0,0,No,Private,Urban,smokes,overweight,diabetes,youth
+Female,0,0,No,Private,Urban,never smoked,normal weight,severe diabetes,youth
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,prediabetes,senior
+Male,0,0,No,children,Urban,Unknown,underweight,prediabetes,child
+Female,0,0,Yes,Private,Urban,Unknown,obesity,severe diabetes,adult
+Female,0,0,No,Govt_job,Rural,never smoked,normal weight,normal,youth
+Female,0,0,No,Private,Rural,never smoked,normal weight,normal,child
+Female,0,0,No,children,Rural,Unknown,underweight,prediabetes,child
+Female,1,0,Yes,Self-employed,Urban,never smoked,obesity,severe diabetes,senior
+Male,0,0,Yes,Private,Urban,smokes,obesity,prediabetes,youth
+Female,1,0,Yes,Govt_job,Urban,never smoked,overweight,diabetes,middle-aged
+Male,0,0,No,Private,Rural,never smoked,obesity,prediabetes,youth
+Female,0,0,No,Private,Rural,never smoked,obesity,normal,adult
+Male,0,0,No,children,Rural,Unknown,underweight,normal,child
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,prediabetes,youth
+Male,0,0,Yes,Govt_job,Rural,never smoked,overweight,normal,adult
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,Yes,Private,Rural,Unknown,overweight,diabetes,youth
+Female,0,0,Yes,Self-employed,Rural,never smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Govt_job,Rural,formerly smoked,obesity,normal,youth
+Male,0,0,Yes,Self-employed,Rural,never smoked,overweight,normal,senior
+Male,0,0,No,Private,Rural,never smoked,normal weight,normal,child
+Female,0,0,No,Self-employed,Urban,never smoked,obesity,normal,youth
+Male,0,0,No,Private,Urban,formerly smoked,normal weight,normal,youth
+Female,0,0,No,Private,Rural,never smoked,underweight,prediabetes,youth
+Male,0,0,Yes,Private,Urban,never smoked,obesity,normal,adult
+Female,0,0,Yes,Self-employed,Rural,smokes,overweight,normal,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Rural,smokes,normal weight,severe diabetes,middle-aged
+Male,0,0,Yes,Private,Rural,smokes,obesity,normal,middle-aged
+Female,0,0,No,Private,Urban,never smoked,overweight,prediabetes,youth
+Female,0,0,Yes,Private,Urban,Unknown,obesity,severe diabetes,senior
+Male,1,0,Yes,Govt_job,Rural,never smoked,obesity,diabetes,middle-aged
+Female,0,0,No,children,Urban,never smoked,normal weight,normal,child
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,adult
+Female,0,0,No,children,Rural,Unknown,underweight,prediabetes,child
+Male,0,0,Yes,Private,Rural,never smoked,overweight,normal,senior
+Female,0,0,Yes,Private,Rural,never smoked,overweight,prediabetes,adult
+Female,0,0,Yes,Govt_job,Rural,Unknown,overweight,normal,middle-aged
+Female,0,0,Yes,Private,Rural,Unknown,overweight,normal,adult
+Female,0,0,Yes,Private,Rural,Unknown,normal weight,normal,senior
+Male,1,0,Yes,Private,Rural,Unknown,normal weight,diabetes,adult
+Male,0,0,Yes,Private,Rural,smokes,obesity,diabetes,middle-aged
+Male,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,No,Private,Rural,formerly smoked,normal weight,diabetes,youth
+Female,0,0,Yes,Self-employed,Rural,never smoked,normal weight,normal,senior
+Female,0,0,No,Private,Rural,Unknown,obesity,normal,adult
+Female,0,0,No,Private,Urban,smokes,normal weight,diabetes,youth
+Female,0,0,No,Private,Urban,never smoked,obesity,normal,youth
+Male,0,0,Yes,Private,Rural,Unknown,overweight,normal,adult
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,No,Private,Rural,never smoked,obesity,normal,child
+Male,0,0,Yes,Govt_job,Urban,formerly smoked,overweight,normal,senior
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,1,Yes,Private,Rural,formerly smoked,overweight,severe diabetes,senior
+Male,1,0,Yes,Self-employed,Rural,never smoked,obesity,normal,senior
+Female,0,0,Yes,Self-employed,Rural,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,smokes,normal weight,normal,youth
+Female,0,0,No,Private,Rural,Unknown,normal weight,normal,adult
+Female,1,0,Yes,Self-employed,Rural,never smoked,overweight,normal,senior
+Male,0,0,Yes,Govt_job,Urban,smokes,obesity,diabetes,middle-aged
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,middle-aged
+Female,0,0,No,Private,Rural,Unknown,overweight,prediabetes,youth
+Female,0,1,Yes,Private,Rural,never smoked,overweight,diabetes,senior
+Male,0,0,Yes,Self-employed,Rural,formerly smoked,obesity,severe diabetes,middle-aged
+Male,0,0,Yes,Private,Rural,Unknown,overweight,prediabetes,middle-aged
+Female,0,0,No,Private,Urban,smokes,overweight,diabetes,adult
+Male,0,0,No,Private,Rural,Unknown,normal weight,prediabetes,child
+Female,0,0,No,Private,Urban,Unknown,obesity,diabetes,youth
+Male,0,0,No,Private,Urban,smokes,obesity,normal,youth
+Male,0,0,Yes,Govt_job,Urban,smokes,obesity,normal,adult
+Male,1,0,Yes,Self-employed,Urban,smokes,obesity,diabetes,middle-aged
+Female,0,0,Yes,Govt_job,Rural,smokes,normal weight,normal,youth
+Female,0,0,No,children,Rural,Unknown,overweight,prediabetes,child
+Female,0,0,No,Govt_job,Urban,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Self-employed,Urban,never smoked,overweight,diabetes,senior
+Female,0,0,Yes,Private,Urban,smokes,normal weight,normal,adult
+Female,0,0,No,Private,Urban,formerly smoked,obesity,normal,youth
+Female,0,0,Yes,Private,Urban,never smoked,overweight,prediabetes,youth
+Male,0,0,No,Never_worked,Urban,Unknown,underweight,normal,child
+Male,0,0,No,Private,Urban,smokes,overweight,normal,youth
+Male,0,0,No,children,Rural,Unknown,normal weight,prediabetes,child
+Male,0,0,No,Govt_job,Rural,smokes,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,obesity,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,formerly smoked,obesity,prediabetes,middle-aged
+Female,0,0,Yes,Self-employed,Rural,smokes,obesity,diabetes,adult
+Female,0,0,Yes,Private,Rural,never smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Self-employed,Rural,never smoked,obesity,prediabetes,youth
+Male,0,0,Yes,Govt_job,Urban,Unknown,obesity,normal,adult
+Female,0,0,Yes,Private,Urban,smokes,overweight,normal,middle-aged
+Female,0,0,No,Private,Rural,smokes,overweight,normal,youth
+Female,0,0,Yes,Private,Urban,formerly smoked,obesity,normal,adult
+Female,0,0,Yes,Govt_job,Urban,never smoked,obesity,normal,adult
+Male,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Male,0,0,Yes,Private,Rural,Unknown,overweight,normal,youth
+Female,0,0,No,Govt_job,Urban,smokes,obesity,prediabetes,youth
+Female,0,0,Yes,Govt_job,Urban,smokes,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,Unknown,obesity,diabetes,adult
+Male,0,0,Yes,Private,Urban,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,never smoked,normal weight,prediabetes,adult
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,adult
+Male,0,0,No,Govt_job,Rural,never smoked,overweight,diabetes,child
+Female,0,0,Yes,Govt_job,Urban,formerly smoked,obesity,normal,adult
+Female,1,0,Yes,Private,Rural,smokes,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,middle-aged
+Female,0,0,No,Private,Urban,Unknown,obesity,normal,youth
+Male,0,0,Yes,Private,Urban,Unknown,overweight,normal,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,senior
+Female,0,0,Yes,Self-employed,Urban,never smoked,overweight,diabetes,senior
+Male,0,0,No,children,Rural,Unknown,underweight,prediabetes,child
+Male,0,0,Yes,Self-employed,Rural,formerly smoked,obesity,prediabetes,adult
+Female,0,0,Yes,Self-employed,Rural,Unknown,obesity,normal,middle-aged
+Male,0,0,No,Private,Rural,smokes,obesity,diabetes,adult
+Female,0,0,Yes,Self-employed,Rural,never smoked,underweight,normal,senior
+Female,0,0,No,Private,Urban,smokes,normal weight,normal,youth
+Female,0,0,Yes,Govt_job,Urban,Unknown,normal weight,prediabetes,adult
+Female,0,0,Yes,Private,Urban,smokes,overweight,normal,youth
+Male,1,0,Yes,Private,Urban,Unknown,obesity,diabetes,middle-aged
+Female,0,0,Yes,Govt_job,Urban,never smoked,normal weight,normal,youth
+Female,0,0,Yes,Self-employed,Urban,formerly smoked,obesity,normal,senior
+Female,0,0,No,Never_worked,Urban,never smoked,normal weight,normal,child
+Female,0,0,Yes,Private,Rural,never smoked,obesity,diabetes,middle-aged
+Female,0,1,Yes,Private,Rural,never smoked,overweight,prediabetes,senior
+Female,0,0,Yes,Self-employed,Rural,Unknown,overweight,normal,youth
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,youth
+Female,1,0,Yes,Private,Urban,Unknown,overweight,diabetes,middle-aged
+Male,0,0,No,children,Urban,Unknown,overweight,normal,child
+Female,0,0,Yes,Private,Rural,Unknown,underweight,normal,senior
+Male,0,0,No,Private,Urban,Unknown,obesity,prediabetes,youth
+Male,0,0,Yes,Private,Rural,Unknown,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,prediabetes,adult
+Female,0,0,Yes,Self-employed,Urban,smokes,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,prediabetes,adult
+Female,1,0,Yes,Private,Rural,formerly smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,smokes,obesity,prediabetes,middle-aged
+Female,0,0,No,Never_worked,Urban,never smoked,normal weight,normal,child
+Male,0,0,No,Private,Urban,never smoked,obesity,normal,senior
+Male,0,0,Yes,Private,Urban,never smoked,obesity,normal,adult
+Female,0,0,No,Private,Rural,never smoked,obesity,normal,youth
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,youth
+Male,0,0,Yes,Private,Rural,smokes,overweight,normal,adult
+Female,1,1,Yes,Self-employed,Urban,never smoked,obesity,prediabetes,senior
+Female,0,1,Yes,Private,Rural,formerly smoked,overweight,normal,middle-aged
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,1,0,No,Private,Rural,formerly smoked,obesity,prediabetes,adult
+Male,0,0,Yes,Private,Urban,never smoked,overweight,normal,youth
+Female,0,0,Yes,Govt_job,Rural,never smoked,normal weight,normal,middle-aged
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,No,children,Rural,Unknown,underweight,normal,child
+Male,0,0,No,children,Urban,Unknown,underweight,diabetes,child
+Female,0,0,Yes,Private,Urban,formerly smoked,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Self-employed,Urban,Unknown,obesity,diabetes,adult
+Female,0,0,Yes,Self-employed,Rural,Unknown,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,Unknown,overweight,normal,middle-aged
+Female,0,0,Yes,Govt_job,Rural,formerly smoked,obesity,severe diabetes,adult
+Female,0,0,No,Private,Rural,formerly smoked,overweight,normal,middle-aged
+Female,0,0,No,Private,Urban,never smoked,obesity,normal,youth
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Male,0,0,No,Private,Urban,smokes,underweight,normal,youth
+Male,0,0,No,Private,Urban,Unknown,normal weight,prediabetes,youth
+Female,0,0,Yes,Self-employed,Urban,smokes,obesity,normal,middle-aged
+Female,0,0,Yes,Self-employed,Rural,smokes,overweight,normal,youth
+Male,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,overweight,diabetes,youth
+Female,0,0,No,Private,Urban,never smoked,overweight,normal,child
+Male,1,0,Yes,Private,Rural,never smoked,obesity,severe diabetes,senior
+Female,0,0,No,Private,Urban,smokes,overweight,normal,child
+Male,0,0,No,children,Rural,Unknown,normal weight,prediabetes,child
+Female,0,0,Yes,Private,Rural,never smoked,obesity,severe diabetes,senior
+Male,0,0,No,children,Rural,Unknown,normal weight,prediabetes,child
+Female,0,0,Yes,Private,Rural,smokes,overweight,normal,youth
+Male,0,0,Yes,Private,Rural,Unknown,obesity,prediabetes,senior
+Male,1,0,Yes,Private,Urban,smokes,obesity,normal,middle-aged
+Female,0,1,Yes,Self-employed,Rural,never smoked,overweight,prediabetes,senior
+Female,0,0,No,children,Rural,Unknown,underweight,normal,child
+Male,0,0,Yes,Self-employed,Urban,smokes,overweight,normal,adult
+Male,1,0,Yes,Private,Urban,formerly smoked,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Female,0,0,Yes,Govt_job,Rural,never smoked,normal weight,prediabetes,adult
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,adult
+Male,0,1,Yes,Self-employed,Urban,formerly smoked,overweight,normal,senior
+Female,0,0,Yes,Self-employed,Rural,never smoked,normal weight,diabetes,middle-aged
+Female,0,0,No,Private,Urban,never smoked,overweight,normal,youth
+Male,0,0,Yes,Private,Rural,formerly smoked,normal weight,normal,senior
+Female,0,0,Yes,Govt_job,Urban,smokes,normal weight,normal,middle-aged
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Govt_job,Rural,never smoked,normal weight,normal,youth
+Male,0,0,No,Govt_job,Urban,never smoked,normal weight,normal,youth
+Male,1,1,Yes,Self-employed,Urban,smokes,overweight,normal,senior
+Female,1,0,Yes,Self-employed,Urban,formerly smoked,obesity,prediabetes,senior
+Female,0,0,No,Private,Rural,Unknown,overweight,diabetes,adult
+Male,0,1,Yes,Govt_job,Rural,never smoked,overweight,prediabetes,senior
+Female,1,0,Yes,Private,Urban,smokes,obesity,diabetes,senior
+Male,0,0,Yes,Govt_job,Rural,never smoked,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Self-employed,Rural,formerly smoked,overweight,normal,senior
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,adult
+Female,1,0,No,Private,Rural,never smoked,normal weight,normal,middle-aged
+Male,0,0,No,Private,Urban,never smoked,normal weight,prediabetes,youth
+Female,0,0,Yes,Self-employed,Urban,smokes,overweight,normal,adult
+Male,0,0,No,Private,Rural,smokes,overweight,normal,youth
+Female,0,0,Yes,Private,Urban,formerly smoked,normal weight,normal,senior
+Male,0,0,Yes,Self-employed,Urban,never smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,adult
+Male,0,1,Yes,Private,Urban,Unknown,overweight,severe diabetes,senior
+Female,0,0,Yes,Self-employed,Urban,never smoked,normal weight,normal,adult
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,normal,youth
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Male,1,1,Yes,Govt_job,Rural,never smoked,obesity,normal,middle-aged
+Male,0,0,No,children,Rural,Unknown,underweight,prediabetes,child
+Male,0,0,No,Private,Urban,Unknown,obesity,prediabetes,youth
+Male,0,0,Yes,Govt_job,Urban,never smoked,obesity,normal,senior
+Female,0,0,Yes,Private,Urban,Unknown,overweight,prediabetes,youth
+Female,0,1,Yes,Private,Rural,smokes,normal weight,prediabetes,youth
+Male,0,0,No,Private,Urban,never smoked,normal weight,normal,youth
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,prediabetes,middle-aged
+Male,0,0,No,children,Rural,Unknown,underweight,diabetes,child
+Male,0,1,Yes,Govt_job,Rural,formerly smoked,obesity,diabetes,senior
+Female,0,0,No,children,Rural,Unknown,underweight,normal,child
+Female,0,0,No,Self-employed,Urban,Unknown,obesity,normal,adult
+Male,0,0,No,Private,Urban,smokes,normal weight,normal,youth
+Male,0,0,Yes,Govt_job,Rural,never smoked,obesity,diabetes,adult
+Female,0,0,No,Private,Urban,Unknown,overweight,normal,senior
+Female,0,0,No,Private,Urban,smokes,normal weight,prediabetes,youth
+Female,0,0,Yes,Private,Urban,formerly smoked,normal weight,normal,youth
+Female,0,0,Yes,Private,Rural,Unknown,overweight,diabetes,middle-aged
+Male,0,0,Yes,Govt_job,Urban,never smoked,overweight,normal,senior
+Male,1,1,Yes,Private,Urban,smokes,overweight,severe diabetes,senior
+Male,0,0,Yes,Private,Rural,smokes,overweight,prediabetes,youth
+Female,0,0,Yes,Private,Rural,smokes,overweight,normal,senior
+Male,0,0,Yes,Private,Urban,never smoked,obesity,normal,adult
+Female,0,0,No,Private,Urban,never smoked,overweight,normal,youth
+Female,0,0,Yes,Govt_job,Rural,Unknown,overweight,normal,adult
+Male,0,0,Yes,Private,Urban,never smoked,obesity,normal,adult
+Male,0,0,Yes,Self-employed,Rural,smokes,normal weight,severe diabetes,senior
+Female,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Rural,smokes,overweight,normal,youth
+Male,0,0,Yes,Private,Urban,formerly smoked,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Private,Rural,smokes,obesity,diabetes,middle-aged
+Male,0,0,No,children,Rural,never smoked,normal weight,prediabetes,child
+Female,0,0,Yes,Self-employed,Urban,never smoked,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Rural,formerly smoked,normal weight,diabetes,adult
+Female,0,0,Yes,Self-employed,Rural,never smoked,obesity,prediabetes,adult
+Female,0,0,No,Self-employed,Rural,Unknown,overweight,normal,youth
+Female,0,0,Yes,Govt_job,Urban,never smoked,obesity,normal,adult
+Male,0,0,Yes,Private,Urban,formerly smoked,overweight,severe diabetes,senior
+Female,0,0,Yes,Private,Urban,Unknown,normal weight,normal,youth
+Female,0,0,Yes,Self-employed,Urban,formerly smoked,normal weight,normal,youth
+Female,1,0,No,Private,Urban,smokes,obesity,prediabetes,youth
+Male,0,0,Yes,Private,Urban,formerly smoked,obesity,normal,adult
+Male,0,0,No,Never_worked,Urban,never smoked,obesity,diabetes,child
+Female,0,0,Yes,Private,Rural,never smoked,obesity,normal,adult
+Female,0,0,No,Private,Rural,never smoked,normal weight,normal,youth
+Male,1,0,Yes,Private,Urban,Unknown,obesity,normal,adult
+Male,0,0,Yes,Govt_job,Urban,formerly smoked,obesity,normal,adult
+Female,1,0,Yes,Self-employed,Rural,never smoked,obesity,severe diabetes,senior
+Female,0,0,Yes,Self-employed,Urban,never smoked,obesity,normal,youth
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,Yes,Private,Rural,never smoked,obesity,diabetes,middle-aged
+Female,1,0,Yes,Private,Urban,smokes,obesity,severe diabetes,adult
+Female,0,0,No,Private,Urban,formerly smoked,overweight,normal,child
+Female,0,0,No,children,Rural,Unknown,underweight,normal,child
+Male,1,0,Yes,Private,Rural,never smoked,normal weight,prediabetes,middle-aged
+Female,0,0,No,Private,Rural,Unknown,obesity,normal,youth
+Female,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,No,Private,Urban,Unknown,overweight,prediabetes,child
+Male,0,0,No,Self-employed,Urban,Unknown,overweight,diabetes,child
+Female,1,0,Yes,Govt_job,Urban,never smoked,obesity,prediabetes,senior
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,0,0,Yes,Private,Rural,never smoked,overweight,severe diabetes,senior
+Male,0,1,Yes,Private,Rural,smokes,overweight,normal,middle-aged
+Male,0,0,No,Private,Urban,never smoked,obesity,normal,youth
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,adult
+Female,0,0,Yes,Self-employed,Urban,never smoked,overweight,severe diabetes,senior
+Male,0,0,Yes,Private,Urban,Unknown,obesity,normal,youth
+Male,0,0,No,children,Urban,Unknown,underweight,prediabetes,child
+Male,0,0,Yes,Self-employed,Urban,smokes,overweight,normal,youth
+Male,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Rural,Unknown,obesity,normal,youth
+Female,0,0,Yes,Private,Rural,never smoked,obesity,severe diabetes,middle-aged
+Male,0,0,Yes,Private,Urban,never smoked,obesity,prediabetes,adult
+Male,0,0,Yes,Private,Rural,Unknown,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Urban,smokes,obesity,normal,middle-aged
+Female,0,0,No,Private,Urban,Unknown,normal weight,normal,youth
+Female,0,1,Yes,Self-employed,Urban,never smoked,obesity,prediabetes,middle-aged
+Female,0,0,Yes,Govt_job,Urban,never smoked,obesity,normal,adult
+Female,1,0,Yes,Private,Rural,never smoked,obesity,diabetes,senior
+Male,1,0,Yes,Govt_job,Rural,formerly smoked,obesity,prediabetes,middle-aged
+Female,0,0,Yes,Private,Urban,smokes,obesity,normal,adult
+Male,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,youth
+Female,0,0,Yes,Private,Urban,never smoked,overweight,normal,youth
+Male,0,0,Yes,Govt_job,Urban,formerly smoked,overweight,diabetes,senior
+Male,1,0,Yes,Private,Urban,never smoked,overweight,prediabetes,senior
+Female,1,0,No,Private,Rural,never smoked,obesity,normal,youth
+Female,0,1,No,Self-employed,Urban,Unknown,overweight,prediabetes,senior
+Male,0,0,Yes,Govt_job,Rural,formerly smoked,obesity,prediabetes,middle-aged
+Female,0,0,No,Private,Urban,never smoked,normal weight,normal,adult
+Male,0,0,Yes,Private,Rural,never smoked,overweight,normal,senior
+Male,0,0,No,Private,Rural,Unknown,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,adult
+Female,0,1,Yes,Self-employed,Urban,smokes,obesity,diabetes,senior
+Male,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Urban,smokes,obesity,prediabetes,adult
+Female,1,0,Yes,Private,Rural,never smoked,obesity,normal,adult
+Male,0,0,No,Private,Rural,never smoked,normal weight,prediabetes,child
+Female,0,0,Yes,Self-employed,Rural,never smoked,overweight,prediabetes,senior
+Male,0,1,Yes,Govt_job,Urban,smokes,overweight,prediabetes,adult
+Male,0,1,Yes,Private,Rural,formerly smoked,obesity,severe diabetes,senior
+Male,1,0,Yes,Private,Rural,formerly smoked,obesity,normal,senior
+Female,0,0,Yes,Self-employed,Rural,Unknown,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,formerly smoked,normal weight,normal,middle-aged
+Female,0,0,Yes,Private,Urban,Unknown,normal weight,diabetes,youth
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Male,0,0,Yes,Private,Rural,formerly smoked,normal weight,normal,senior
+Male,0,0,No,Private,Rural,never smoked,normal weight,normal,youth
+Female,0,1,Yes,Private,Rural,never smoked,overweight,severe diabetes,senior
+Male,1,0,Yes,Self-employed,Urban,never smoked,overweight,normal,adult
+Female,0,0,Yes,Govt_job,Urban,formerly smoked,obesity,normal,middle-aged
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,0,0,No,Private,Urban,never smoked,normal weight,normal,child
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,youth
+Female,0,0,No,Private,Urban,Unknown,normal weight,normal,youth
+Male,0,0,Yes,Govt_job,Urban,formerly smoked,obesity,severe diabetes,adult
+Male,0,0,No,Self-employed,Rural,formerly smoked,obesity,severe diabetes,senior
+Female,0,0,No,Private,Urban,never smoked,normal weight,normal,child
+Male,0,0,Yes,Private,Rural,smokes,overweight,prediabetes,adult
+Female,0,0,Yes,Govt_job,Urban,Unknown,normal weight,normal,middle-aged
+Male,0,0,Yes,Private,Rural,never smoked,overweight,normal,senior
+Female,0,0,Yes,Self-employed,Rural,never smoked,obesity,prediabetes,youth
+Female,0,0,Yes,Self-employed,Urban,never smoked,overweight,normal,adult
+Male,0,0,Yes,Private,Urban,formerly smoked,overweight,diabetes,senior
+Female,0,0,Yes,Self-employed,Rural,formerly smoked,obesity,prediabetes,senior
+Female,0,0,No,Private,Rural,smokes,normal weight,normal,child
+Male,1,1,Yes,Self-employed,Rural,formerly smoked,overweight,diabetes,senior
+Male,0,0,Yes,Govt_job,Urban,Unknown,overweight,diabetes,adult
+Female,0,0,No,Govt_job,Urban,smokes,overweight,normal,senior
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Male,0,0,No,Self-employed,Urban,never smoked,normal weight,normal,child
+Female,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Urban,Unknown,overweight,prediabetes,adult
+Female,0,0,Yes,Self-employed,Rural,Unknown,overweight,normal,senior
+Female,0,0,No,Private,Urban,never smoked,obesity,normal,youth
+Female,0,0,No,Private,Rural,Unknown,obesity,normal,youth
+Male,0,0,Yes,Private,Urban,smokes,normal weight,normal,senior
+Female,0,0,Yes,Govt_job,Urban,Unknown,obesity,normal,senior
+Male,0,0,No,Govt_job,Rural,formerly smoked,overweight,prediabetes,youth
+Male,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,No,children,Rural,Unknown,underweight,normal,child
+Male,0,0,No,children,Urban,Unknown,obesity,normal,child
+Male,0,0,No,Private,Rural,never smoked,overweight,normal,youth
+Female,0,0,No,Private,Urban,never smoked,normal weight,normal,youth
+Female,0,0,Yes,Govt_job,Urban,Unknown,normal weight,normal,adult
+Female,0,0,Yes,Private,Urban,smokes,obesity,normal,middle-aged
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,1,0,Yes,Self-employed,Urban,never smoked,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,formerly smoked,obesity,normal,middle-aged
+Male,0,0,No,children,Rural,Unknown,obesity,normal,child
+Male,0,0,Yes,Govt_job,Rural,never smoked,obesity,normal,adult
+Female,0,0,No,Private,Rural,Unknown,overweight,normal,youth
+Female,0,0,No,Private,Urban,Unknown,overweight,prediabetes,child
+Female,0,0,Yes,Govt_job,Urban,never smoked,normal weight,prediabetes,senior
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,severe diabetes,senior
+Male,0,0,Yes,Self-employed,Urban,never smoked,overweight,severe diabetes,senior
+Male,0,0,Yes,Private,Urban,Unknown,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,Unknown,obesity,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,adult
+Male,0,0,Yes,Private,Urban,never smoked,obesity,normal,youth
+Male,0,0,Yes,Private,Urban,Unknown,overweight,normal,adult
+Male,0,0,No,Private,Urban,never smoked,obesity,normal,child
+Female,0,0,No,Private,Rural,formerly smoked,obesity,prediabetes,youth
+Female,0,0,No,children,Rural,Unknown,underweight,diabetes,child
+Female,0,0,No,Private,Urban,smokes,overweight,normal,youth
+Female,0,0,Yes,Private,Rural,smokes,obesity,normal,adult
+Female,0,0,Yes,Private,Rural,Unknown,normal weight,diabetes,youth
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,middle-aged
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,Yes,Private,Rural,never smoked,overweight,prediabetes,youth
+Female,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,Yes,Self-employed,Urban,never smoked,normal weight,prediabetes,youth
+Female,0,0,No,Govt_job,Urban,Unknown,obesity,normal,youth
+Female,1,1,Yes,Private,Urban,formerly smoked,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Govt_job,Urban,never smoked,overweight,normal,youth
+Female,0,0,Yes,Govt_job,Rural,smokes,obesity,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,overweight,normal,senior
+Male,1,0,Yes,Private,Rural,formerly smoked,obesity,diabetes,middle-aged
+Female,0,0,Yes,Govt_job,Urban,formerly smoked,normal weight,normal,middle-aged
+Male,0,0,No,Govt_job,Rural,smokes,obesity,normal,middle-aged
+Male,0,0,No,Private,Rural,smokes,obesity,severe diabetes,youth
+Female,0,0,No,children,Urban,Unknown,underweight,diabetes,child
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,youth
+Female,0,0,Yes,Private,Urban,smokes,obesity,severe diabetes,adult
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,prediabetes,middle-aged
+Male,0,0,No,Private,Rural,never smoked,obesity,normal,child
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,No,Private,Urban,Unknown,overweight,prediabetes,youth
+Male,0,0,No,children,Rural,Unknown,underweight,prediabetes,child
+Male,0,0,Yes,Govt_job,Rural,never smoked,overweight,normal,middle-aged
+Female,1,0,Yes,Private,Urban,smokes,obesity,normal,youth
+Female,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Urban,Unknown,obesity,diabetes,middle-aged
+Male,0,0,Yes,Govt_job,Rural,smokes,overweight,normal,adult
+Male,0,0,Yes,Self-employed,Urban,smokes,obesity,normal,youth
+Female,0,0,Yes,Private,Urban,Unknown,obesity,normal,adult
+Female,0,0,No,Self-employed,Rural,never smoked,obesity,normal,middle-aged
+Male,0,0,No,Self-employed,Rural,smokes,overweight,prediabetes,senior
+Male,0,0,No,Private,Urban,never smoked,normal weight,diabetes,youth
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,prediabetes,middle-aged
+Male,0,0,No,Self-employed,Rural,Unknown,normal weight,normal,child
+Female,0,0,No,Private,Rural,smokes,obesity,normal,youth
+Female,1,0,Yes,Private,Rural,never smoked,obesity,diabetes,senior
+Male,0,0,Yes,Self-employed,Rural,never smoked,obesity,severe diabetes,adult
+Female,0,0,Yes,Private,Urban,smokes,normal weight,normal,senior
+Female,0,1,Yes,Self-employed,Rural,formerly smoked,normal weight,normal,senior
+Female,0,1,Yes,Private,Rural,never smoked,obesity,severe diabetes,senior
+Male,1,0,Yes,Private,Rural,formerly smoked,obesity,severe diabetes,middle-aged
+Male,0,0,Yes,Private,Urban,Unknown,overweight,diabetes,senior
+Female,0,0,No,Private,Rural,never smoked,overweight,normal,child
+Female,0,0,Yes,Govt_job,Urban,smokes,overweight,diabetes,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,prediabetes,adult
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,middle-aged
+Male,1,0,Yes,Self-employed,Rural,never smoked,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Govt_job,Rural,Unknown,overweight,diabetes,senior
+Male,0,0,No,Private,Rural,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Govt_job,Urban,smokes,obesity,normal,adult
+Female,0,0,No,Private,Rural,never smoked,obesity,normal,child
+Female,0,0,Yes,Private,Rural,smokes,normal weight,normal,adult
+Female,0,0,No,children,Rural,Unknown,overweight,normal,child
+Male,0,0,Yes,Govt_job,Rural,never smoked,normal weight,normal,middle-aged
+Male,0,0,No,Private,Rural,never smoked,normal weight,prediabetes,child
+Female,0,0,Yes,Govt_job,Rural,Unknown,normal weight,prediabetes,middle-aged
+Male,1,1,No,Private,Rural,never smoked,obesity,severe diabetes,senior
+Female,1,0,Yes,Private,Rural,never smoked,overweight,prediabetes,middle-aged
+Male,0,0,Yes,Govt_job,Rural,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,never smoked,obesity,diabetes,middle-aged
+Female,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,youth
+Female,0,0,No,children,Urban,Unknown,overweight,normal,child
+Male,1,1,Yes,Govt_job,Rural,never smoked,obesity,normal,middle-aged
+Female,1,0,Yes,Self-employed,Urban,smokes,obesity,prediabetes,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,obesity,prediabetes,adult
+Female,1,0,Yes,Private,Rural,formerly smoked,obesity,normal,middle-aged
+Female,1,0,Yes,Private,Urban,smokes,overweight,diabetes,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,overweight,normal,middle-aged
+Male,0,0,No,children,Rural,Unknown,obesity,normal,child
+Male,0,0,Yes,Private,Urban,formerly smoked,overweight,prediabetes,senior
+Male,0,0,No,children,Urban,Unknown,normal weight,diabetes,child
+Female,0,0,Yes,Govt_job,Urban,formerly smoked,obesity,normal,middle-aged
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,adult
+Female,0,0,Yes,Govt_job,Rural,formerly smoked,obesity,diabetes,senior
+Male,1,0,No,Private,Urban,formerly smoked,obesity,normal,adult
+Female,0,0,Yes,Govt_job,Rural,Unknown,overweight,normal,adult
+Male,0,1,Yes,Private,Rural,formerly smoked,obesity,normal,middle-aged
+Female,0,0,No,Private,Rural,never smoked,obesity,normal,adult
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,youth
+Male,0,0,Yes,Govt_job,Urban,never smoked,obesity,prediabetes,adult
+Female,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,youth
+Female,0,0,Yes,Self-employed,Urban,never smoked,obesity,normal,middle-aged
+Female,0,0,No,Private,Rural,Unknown,obesity,normal,youth
+Female,0,0,No,Private,Rural,never smoked,obesity,normal,youth
+Male,0,0,No,children,Urban,Unknown,overweight,diabetes,child
+Male,0,0,No,Private,Rural,smokes,normal weight,normal,youth
+Female,0,0,Yes,Govt_job,Rural,formerly smoked,overweight,normal,middle-aged
+Female,1,0,No,Private,Urban,never smoked,normal weight,diabetes,senior
+Male,0,0,Yes,Private,Rural,smokes,normal weight,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,middle-aged
+Male,0,1,Yes,Private,Urban,formerly smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,senior
+Female,0,0,Yes,Self-employed,Urban,formerly smoked,obesity,normal,senior
+Male,0,0,Yes,Private,Urban,Unknown,overweight,normal,senior
+Female,0,0,Yes,Govt_job,Rural,never smoked,overweight,normal,senior
+Male,0,1,No,Private,Urban,never smoked,obesity,normal,adult
+Male,1,0,Yes,Private,Rural,smokes,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Urban,formerly smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,never smoked,underweight,normal,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,overweight,diabetes,youth
+Female,0,0,No,Private,Urban,never smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,overweight,prediabetes,youth
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,normal,adult
+Male,0,0,No,Self-employed,Urban,smokes,normal weight,prediabetes,senior
+Male,0,0,No,children,Urban,Unknown,normal weight,prediabetes,child
+Male,0,0,Yes,Private,Urban,never smoked,overweight,diabetes,middle-aged
+Female,0,0,No,Private,Rural,never smoked,normal weight,prediabetes,youth
+Male,0,0,No,Private,Rural,never smoked,normal weight,prediabetes,child
+Male,0,0,No,Private,Rural,Unknown,obesity,severe diabetes,adult
+Female,0,0,No,children,Urban,Unknown,underweight,prediabetes,child
+Male,0,0,No,Private,Urban,smokes,normal weight,prediabetes,youth
+Female,0,0,Yes,Private,Rural,Unknown,overweight,normal,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,adult
+Male,0,0,Yes,Private,Urban,Unknown,overweight,diabetes,adult
+Female,0,1,Yes,Private,Rural,smokes,normal weight,normal,adult
+Female,0,0,Yes,Self-employed,Rural,formerly smoked,obesity,normal,middle-aged
+Male,0,0,No,Self-employed,Rural,formerly smoked,obesity,normal,youth
+Female,0,0,No,Private,Rural,smokes,overweight,diabetes,youth
+Female,0,0,Yes,Private,Urban,formerly smoked,obesity,diabetes,senior
+Male,0,0,No,Private,Rural,never smoked,overweight,normal,youth
+Female,0,0,No,Private,Rural,never smoked,obesity,normal,adult
+Female,0,0,Yes,Govt_job,Urban,Unknown,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,never smoked,obesity,prediabetes,middle-aged
+Female,0,0,No,Govt_job,Urban,never smoked,normal weight,normal,youth
+Female,0,0,Yes,Private,Rural,never smoked,underweight,normal,senior
+Female,0,0,No,children,Urban,Unknown,overweight,diabetes,child
+Female,0,0,Yes,Self-employed,Urban,never smoked,obesity,prediabetes,adult
+Female,0,0,Yes,Private,Rural,Unknown,normal weight,normal,adult
+Female,0,0,Yes,Govt_job,Rural,Unknown,normal weight,normal,middle-aged
+Female,0,0,Yes,Govt_job,Rural,never smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,overweight,diabetes,middle-aged
+Female,0,0,Yes,Govt_job,Rural,formerly smoked,obesity,severe diabetes,middle-aged
+Male,0,0,Yes,Private,Urban,formerly smoked,obesity,normal,adult
+Female,0,0,No,Private,Rural,Unknown,obesity,normal,youth
+Male,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,adult
+Female,0,0,No,Private,Rural,Unknown,overweight,diabetes,youth
+Female,0,0,Yes,Private,Urban,formerly smoked,normal weight,prediabetes,middle-aged
+Female,0,0,Yes,Private,Urban,formerly smoked,obesity,normal,senior
+Female,0,0,Yes,Private,Urban,never smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Urban,formerly smoked,obesity,diabetes,senior
+Male,0,0,Yes,Govt_job,Urban,never smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,obesity,severe diabetes,adult
+Female,0,0,Yes,Private,Urban,Unknown,obesity,diabetes,senior
+Female,0,0,No,children,Urban,never smoked,normal weight,diabetes,child
+Male,0,0,Yes,Private,Urban,smokes,overweight,normal,middle-aged
+Female,0,0,No,Private,Rural,Unknown,normal weight,normal,youth
+Male,0,0,Yes,Self-employed,Urban,Unknown,overweight,severe diabetes,senior
+Female,0,0,Yes,Self-employed,Urban,never smoked,obesity,normal,senior
+Male,0,0,No,Private,Rural,never smoked,overweight,normal,child
+Female,0,0,Yes,Private,Urban,smokes,overweight,normal,adult
+Male,0,0,Yes,Self-employed,Urban,Unknown,overweight,normal,senior
+Female,0,0,No,Private,Rural,Unknown,obesity,normal,youth
+Female,0,0,No,Private,Rural,Unknown,overweight,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,overweight,normal,middle-aged
+Male,0,0,No,Private,Urban,Unknown,normal weight,normal,youth
+Female,0,0,Yes,Govt_job,Urban,smokes,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Rural,Unknown,normal weight,normal,youth
+Male,0,0,Yes,Private,Rural,never smoked,obesity,prediabetes,adult
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,normal,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,youth
+Female,0,0,No,Private,Urban,never smoked,normal weight,normal,youth
+Male,0,0,Yes,Private,Urban,never smoked,normal weight,diabetes,youth
+Male,1,0,Yes,Self-employed,Urban,formerly smoked,obesity,severe diabetes,senior
+Female,0,0,Yes,Govt_job,Urban,formerly smoked,overweight,prediabetes,middle-aged
+Female,0,0,Yes,Govt_job,Rural,formerly smoked,normal weight,prediabetes,senior
+Female,0,0,No,children,Urban,never smoked,overweight,normal,child
+Male,0,0,No,Self-employed,Urban,Unknown,obesity,normal,adult
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,No,Never_worked,Rural,Unknown,overweight,normal,child
+Female,0,0,Yes,Private,Rural,never smoked,obesity,prediabetes,senior
+Female,0,0,No,children,Rural,Unknown,obesity,normal,child
+Female,0,0,Yes,Govt_job,Urban,never smoked,obesity,normal,adult
+Female,0,0,Yes,Govt_job,Urban,smokes,overweight,normal,senior
+Female,1,1,Yes,Private,Rural,formerly smoked,obesity,severe diabetes,middle-aged
+Female,0,0,No,Private,Urban,Unknown,obesity,severe diabetes,adult
+Male,0,1,No,children,Urban,Unknown,overweight,normal,child
+Male,0,0,No,Private,Urban,formerly smoked,normal weight,normal,youth
+Female,0,1,Yes,Self-employed,Urban,smokes,obesity,normal,senior
+Female,0,0,Yes,Private,Rural,Unknown,normal weight,normal,youth
+Male,0,0,Yes,Private,Urban,never smoked,overweight,normal,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,obesity,diabetes,middle-aged
+Male,0,0,Yes,Self-employed,Rural,never smoked,obesity,severe diabetes,middle-aged
+Male,1,0,Yes,Private,Urban,never smoked,overweight,prediabetes,middle-aged
+Male,0,0,No,children,Urban,Unknown,overweight,normal,child
+Male,0,0,Yes,Private,Urban,never smoked,overweight,normal,middle-aged
+Male,0,1,Yes,Self-employed,Rural,smokes,overweight,normal,senior
+Male,0,0,No,children,Rural,Unknown,underweight,normal,child
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,senior
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,middle-aged
+Female,0,0,No,Private,Rural,Unknown,overweight,normal,youth
+Male,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,No,Private,Rural,Unknown,normal weight,normal,youth
+Male,0,0,No,Private,Rural,never smoked,normal weight,prediabetes,child
+Male,0,0,No,Private,Urban,smokes,obesity,normal,youth
+Male,0,0,No,Private,Rural,smokes,obesity,prediabetes,youth
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,normal,middle-aged
+Male,0,1,Yes,Private,Urban,never smoked,overweight,severe diabetes,senior
+Female,0,0,Yes,Govt_job,Urban,formerly smoked,obesity,normal,adult
+Female,0,0,Yes,Private,Rural,never smoked,obesity,normal,senior
+Male,0,0,No,Private,Urban,Unknown,normal weight,normal,child
+Male,0,0,No,Private,Urban,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,normal,youth
+Female,1,0,Yes,Self-employed,Rural,Unknown,normal weight,severe diabetes,senior
+Male,0,0,Yes,Private,Rural,formerly smoked,obesity,prediabetes,youth
+Female,0,0,Yes,Private,Urban,never smoked,overweight,normal,middle-aged
+Male,0,0,Yes,Self-employed,Urban,formerly smoked,obesity,severe diabetes,middle-aged
+Female,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,Yes,Self-employed,Rural,never smoked,normal weight,normal,adult
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,0,0,No,Private,Rural,never smoked,obesity,diabetes,youth
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,Yes,Govt_job,Urban,Unknown,overweight,normal,adult
+Female,0,0,Yes,Self-employed,Rural,smokes,obesity,prediabetes,adult
+Male,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Female,0,0,Yes,Self-employed,Rural,smokes,obesity,prediabetes,youth
+Female,1,0,Yes,Private,Urban,formerly smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Urban,Unknown,obesity,normal,youth
+Male,1,1,Yes,Govt_job,Rural,never smoked,obesity,prediabetes,middle-aged
+Male,0,0,No,Private,Rural,never smoked,obesity,normal,child
+Male,0,0,Yes,Private,Urban,never smoked,overweight,normal,adult
+Female,0,0,No,Private,Rural,Unknown,normal weight,normal,child
+Male,0,0,No,children,Urban,Unknown,underweight,prediabetes,child
+Female,0,0,No,children,Rural,Unknown,obesity,normal,child
+Female,1,0,Yes,Private,Rural,smokes,obesity,normal,senior
+Male,0,0,No,Private,Urban,smokes,normal weight,normal,adult
+Male,0,0,Yes,Self-employed,Rural,never smoked,obesity,diabetes,adult
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Rural,smokes,obesity,normal,adult
+Female,0,0,Yes,Private,Rural,Unknown,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,adult
+Male,0,0,No,Self-employed,Rural,formerly smoked,obesity,normal,youth
+Female,0,0,Yes,Private,Rural,never smoked,obesity,diabetes,adult
+Female,0,0,No,Govt_job,Rural,formerly smoked,normal weight,prediabetes,child
+Female,0,1,No,Private,Urban,smokes,obesity,severe diabetes,senior
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Female,0,0,Yes,Self-employed,Rural,formerly smoked,obesity,prediabetes,middle-aged
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,1,0,No,Private,Urban,formerly smoked,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,smokes,overweight,normal,youth
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,1,0,Yes,Private,Rural,smokes,overweight,normal,senior
+Male,1,0,No,Private,Urban,never smoked,overweight,normal,senior
+Male,0,1,Yes,Private,Rural,Unknown,obesity,prediabetes,middle-aged
+Female,0,0,Yes,Govt_job,Rural,smokes,obesity,normal,youth
+Female,0,0,Yes,Self-employed,Rural,never smoked,normal weight,normal,senior
+Female,0,0,No,children,Rural,Unknown,underweight,normal,child
+Female,0,0,Yes,Private,Urban,never smoked,obesity,diabetes,adult
+Female,0,0,No,Private,Urban,never smoked,obesity,prediabetes,youth
+Male,0,0,Yes,Private,Rural,smokes,overweight,prediabetes,middle-aged
+Male,1,1,Yes,Private,Rural,never smoked,obesity,normal,senior
+Female,0,0,Yes,Self-employed,Rural,formerly smoked,normal weight,normal,senior
+Male,0,0,No,Private,Urban,Unknown,normal weight,normal,youth
+Male,0,0,No,Private,Urban,Unknown,normal weight,normal,youth
+Male,0,0,Yes,Private,Rural,never smoked,obesity,severe diabetes,senior
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,prediabetes,adult
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,youth
+Male,1,1,Yes,Private,Rural,smokes,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,youth
+Female,0,0,Yes,Private,Rural,smokes,normal weight,normal,senior
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Female,0,0,No,Private,Rural,never smoked,underweight,prediabetes,child
+Female,0,0,Yes,Private,Urban,smokes,normal weight,normal,adult
+Male,0,0,Yes,Private,Rural,formerly smoked,obesity,prediabetes,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,obesity,normal,youth
+Female,0,0,Yes,Private,Urban,Unknown,normal weight,normal,middle-aged
+Female,0,0,Yes,Govt_job,Urban,Unknown,obesity,normal,middle-aged
+Female,0,0,Yes,Self-employed,Urban,Unknown,overweight,normal,adult
+Female,1,0,Yes,Private,Rural,never smoked,normal weight,normal,senior
+Male,0,0,No,Private,Urban,never smoked,obesity,normal,youth
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,youth
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,youth
+Male,0,0,Yes,Private,Rural,never smoked,obesity,prediabetes,middle-aged
+Female,0,0,Yes,Self-employed,Rural,formerly smoked,overweight,normal,senior
+Female,0,0,No,Private,Rural,Unknown,normal weight,normal,child
+Male,0,0,Yes,Private,Urban,never smoked,overweight,prediabetes,middle-aged
+Female,0,0,No,Never_worked,Rural,never smoked,obesity,normal,child
+Male,1,0,Yes,Private,Rural,never smoked,overweight,severe diabetes,senior
+Female,0,0,No,Private,Rural,never smoked,obesity,normal,child
+Female,0,0,No,Govt_job,Urban,smokes,overweight,prediabetes,senior
+Female,0,0,Yes,Private,Rural,never smoked,obesity,normal,youth
+Male,0,0,No,Self-employed,Urban,formerly smoked,obesity,normal,child
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,senior
+Female,0,1,Yes,Govt_job,Urban,smokes,obesity,severe diabetes,adult
+Female,0,0,Yes,Private,Rural,Unknown,obesity,diabetes,senior
+Male,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,senior
+Female,0,0,No,Govt_job,Rural,smokes,obesity,normal,youth
+Male,0,0,Yes,Private,Urban,never smoked,obesity,prediabetes,middle-aged
+Female,0,0,No,Private,Rural,never smoked,overweight,diabetes,youth
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,severe diabetes,adult
+Female,0,0,Yes,Private,Rural,never smoked,overweight,severe diabetes,middle-aged
+Male,0,0,No,Govt_job,Urban,Unknown,normal weight,normal,youth
+Female,0,0,Yes,Self-employed,Urban,smokes,overweight,severe diabetes,senior
+Female,0,0,No,children,Rural,Unknown,underweight,normal,child
+Female,0,0,Yes,Private,Rural,smokes,normal weight,prediabetes,youth
+Female,0,0,No,Self-employed,Urban,never smoked,obesity,normal,senior
+Male,1,0,Yes,Self-employed,Urban,never smoked,overweight,severe diabetes,senior
+Male,0,0,No,children,Urban,Unknown,obesity,normal,child
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,normal,middle-aged
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,prediabetes,middle-aged
+Female,0,0,No,children,Urban,never smoked,normal weight,normal,child
+Female,0,0,Yes,Govt_job,Urban,Unknown,normal weight,normal,youth
+Male,0,0,Yes,Private,Rural,Unknown,overweight,normal,adult
+Male,0,0,No,Private,Rural,smokes,normal weight,normal,youth
+Female,0,0,Yes,Private,Urban,Unknown,overweight,normal,adult
+Male,1,0,Yes,Private,Rural,smokes,normal weight,severe diabetes,middle-aged
+Male,0,0,Yes,Private,Rural,smokes,obesity,prediabetes,adult
+Female,1,0,Yes,Govt_job,Rural,formerly smoked,overweight,prediabetes,senior
+Female,0,0,Yes,Private,Rural,Unknown,obesity,normal,adult
+Female,0,0,Yes,Govt_job,Urban,never smoked,overweight,severe diabetes,middle-aged
+Female,0,0,No,Private,Urban,Unknown,normal weight,diabetes,youth
+Male,0,0,No,Private,Rural,Unknown,overweight,normal,youth
+Male,0,0,No,Private,Urban,Unknown,obesity,prediabetes,adult
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,adult
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,1,0,Yes,Private,Urban,never smoked,overweight,severe diabetes,senior
+Female,0,0,No,Private,Rural,never smoked,obesity,prediabetes,adult
+Male,0,0,Yes,Private,Urban,smokes,overweight,normal,middle-aged
+Female,0,0,No,children,Rural,Unknown,underweight,prediabetes,child
+Female,0,0,Yes,Self-employed,Urban,never smoked,overweight,normal,youth
+Male,0,0,Yes,Private,Urban,formerly smoked,obesity,severe diabetes,senior
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,Yes,Private,Urban,never smoked,obesity,severe diabetes,adult
+Male,0,0,Yes,Self-employed,Urban,formerly smoked,normal weight,diabetes,senior
+Female,0,0,Yes,Private,Rural,never smoked,obesity,prediabetes,middle-aged
+Male,0,0,Yes,Private,Urban,smokes,obesity,prediabetes,adult
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,middle-aged
+Male,0,0,No,children,Rural,Unknown,underweight,diabetes,child
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,youth
+Female,0,0,No,children,Urban,never smoked,overweight,normal,child
+Male,1,0,Yes,Self-employed,Rural,formerly smoked,obesity,diabetes,adult
+Male,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Male,0,0,Yes,Private,Urban,never smoked,obesity,normal,senior
+Female,0,0,Yes,Private,Rural,Unknown,overweight,normal,youth
+Female,0,0,No,Private,Rural,never smoked,normal weight,normal,youth
+Female,0,0,Yes,Private,Urban,formerly smoked,obesity,prediabetes,adult
+Male,1,1,Yes,Private,Urban,formerly smoked,obesity,prediabetes,middle-aged
+Female,0,0,Yes,Private,Urban,smokes,normal weight,diabetes,youth
+Male,0,0,No,children,Rural,Unknown,obesity,normal,child
+Male,0,0,Yes,Private,Rural,never smoked,normal weight,normal,senior
+Male,0,0,Yes,Private,Urban,Unknown,normal weight,normal,youth
+Male,0,0,Yes,Private,Rural,Unknown,obesity,normal,adult
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,No,children,Urban,Unknown,normal weight,prediabetes,child
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,youth
+Male,0,1,Yes,Private,Urban,formerly smoked,overweight,diabetes,senior
+Female,0,0,Yes,Self-employed,Rural,never smoked,obesity,normal,senior
+Male,0,0,No,Private,Urban,Unknown,overweight,normal,senior
+Female,0,1,Yes,Govt_job,Urban,smokes,obesity,normal,adult
+Female,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Urban,smokes,normal weight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,Unknown,overweight,normal,middle-aged
+Female,0,0,Yes,Self-employed,Urban,never smoked,underweight,normal,adult
+Female,1,0,Yes,Govt_job,Rural,formerly smoked,obesity,prediabetes,senior
+Female,0,0,Yes,Private,Rural,smokes,overweight,normal,adult
+Female,0,0,No,Private,Rural,smokes,normal weight,normal,child
+Female,0,0,Yes,Private,Rural,smokes,overweight,prediabetes,middle-aged
+Female,0,0,Yes,Govt_job,Urban,formerly smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,senior
+Male,0,0,Yes,Private,Urban,never smoked,overweight,normal,senior
+Male,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Male,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Male,0,0,Yes,Govt_job,Urban,formerly smoked,overweight,normal,youth
+Female,0,1,Yes,Private,Urban,never smoked,overweight,severe diabetes,senior
+Female,0,0,No,Private,Rural,smokes,obesity,normal,youth
+Male,0,0,No,children,Rural,never smoked,normal weight,normal,child
+Female,1,0,Yes,Self-employed,Urban,never smoked,obesity,prediabetes,senior
+Female,0,0,Yes,Private,Rural,formerly smoked,normal weight,normal,youth
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,adult
+Female,0,0,Yes,Govt_job,Rural,formerly smoked,normal weight,normal,youth
+Female,1,0,Yes,Private,Rural,never smoked,normal weight,normal,middle-aged
+Male,0,0,Yes,Self-employed,Rural,never smoked,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,youth
+Male,1,0,Yes,Self-employed,Urban,smokes,normal weight,normal,adult
+Female,0,0,No,children,Urban,Unknown,underweight,prediabetes,child
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,No,Govt_job,Rural,never smoked,overweight,prediabetes,youth
+Male,1,1,Yes,Private,Urban,smokes,obesity,prediabetes,middle-aged
+Female,0,0,No,Private,Rural,never smoked,normal weight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,Unknown,normal weight,normal,middle-aged
+Male,0,0,No,Never_worked,Urban,never smoked,overweight,normal,child
+Male,0,0,No,children,Urban,Unknown,normal weight,prediabetes,child
+Male,0,0,Yes,Private,Urban,never smoked,normal weight,diabetes,senior
+Female,1,0,Yes,Private,Rural,never smoked,obesity,normal,adult
+Female,0,0,No,children,Urban,Unknown,overweight,normal,child
+Female,0,0,No,Private,Rural,never smoked,obesity,normal,child
+Female,0,0,Yes,Private,Rural,never smoked,obesity,normal,youth
+Female,0,0,Yes,Govt_job,Rural,never smoked,overweight,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,obesity,severe diabetes,senior
+Male,0,0,Yes,Self-employed,Rural,formerly smoked,overweight,diabetes,senior
+Female,0,0,Yes,Self-employed,Rural,smokes,normal weight,normal,adult
+Male,0,0,Yes,Private,Urban,smokes,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,overweight,normal,youth
+Male,1,0,No,Private,Urban,never smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Govt_job,Rural,never smoked,overweight,prediabetes,adult
+Female,0,0,No,children,Rural,Unknown,normal weight,prediabetes,child
+Male,0,0,Yes,Private,Rural,smokes,obesity,normal,middle-aged
+Female,0,0,No,Private,Rural,smokes,overweight,prediabetes,adult
+Female,0,0,Yes,Private,Urban,Unknown,obesity,normal,middle-aged
+Male,0,0,No,Private,Urban,smokes,normal weight,normal,youth
+Male,0,0,Yes,Self-employed,Urban,smokes,obesity,diabetes,adult
+Male,0,0,Yes,Private,Urban,formerly smoked,obesity,severe diabetes,senior
+Female,0,0,Yes,Private,Urban,Unknown,obesity,normal,youth
+Female,0,0,No,Private,Urban,never smoked,normal weight,normal,youth
+Female,0,0,No,Self-employed,Urban,never smoked,normal weight,normal,senior
+Female,1,0,Yes,Self-employed,Rural,never smoked,obesity,prediabetes,middle-aged
+Male,0,0,Yes,Govt_job,Urban,never smoked,normal weight,normal,adult
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,middle-aged
+Male,1,0,Yes,Self-employed,Rural,never smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Govt_job,Urban,never smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,normal,senior
+Female,0,0,No,Private,Rural,Unknown,normal weight,prediabetes,child
+Male,0,0,Yes,Govt_job,Rural,never smoked,overweight,normal,adult
+Male,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Male,1,0,Yes,Private,Urban,formerly smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Govt_job,Urban,never smoked,normal weight,severe diabetes,senior
+Male,0,0,No,children,Urban,never smoked,underweight,prediabetes,child
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,adult
+Female,0,0,No,Private,Urban,never smoked,normal weight,normal,youth
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,0,0,Yes,Govt_job,Urban,never smoked,obesity,diabetes,adult
+Female,0,0,Yes,Govt_job,Urban,smokes,normal weight,prediabetes,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,obesity,prediabetes,adult
+Female,0,0,Yes,Private,Urban,Unknown,overweight,diabetes,middle-aged
+Male,1,0,Yes,Govt_job,Urban,formerly smoked,overweight,normal,middle-aged
+Female,0,0,No,Private,Rural,never smoked,overweight,prediabetes,child
+Female,1,0,Yes,Self-employed,Rural,never smoked,obesity,severe diabetes,senior
+Male,0,0,No,Govt_job,Urban,Unknown,overweight,normal,youth
+Male,0,0,No,children,Rural,never smoked,underweight,normal,child
+Male,0,0,No,Private,Urban,smokes,obesity,prediabetes,youth
+Female,0,0,Yes,Govt_job,Rural,formerly smoked,overweight,normal,middle-aged
+Female,0,0,Yes,Self-employed,Rural,never smoked,normal weight,severe diabetes,senior
+Female,0,0,Yes,Self-employed,Urban,smokes,overweight,severe diabetes,middle-aged
+Female,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,middle-aged
+Female,0,0,No,Private,Urban,never smoked,overweight,normal,youth
+Female,0,0,Yes,Private,Rural,smokes,normal weight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,formerly smoked,overweight,prediabetes,middle-aged
+Male,0,1,Yes,Self-employed,Urban,formerly smoked,obesity,prediabetes,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Rural,Unknown,normal weight,normal,middle-aged
+Female,0,0,Yes,Private,Urban,formerly smoked,obesity,prediabetes,senior
+Male,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Male,0,0,Yes,Private,Urban,smokes,overweight,normal,middle-aged
+Female,0,0,No,Private,Urban,never smoked,obesity,normal,child
+Female,0,0,No,Govt_job,Urban,never smoked,obesity,prediabetes,youth
+Female,0,0,Yes,Self-employed,Rural,formerly smoked,normal weight,prediabetes,adult
+Male,0,0,Yes,Self-employed,Rural,never smoked,overweight,normal,middle-aged
+Male,0,0,No,children,Urban,Unknown,overweight,normal,child
+Male,0,0,No,Private,Urban,smokes,normal weight,normal,child
+Male,0,0,Yes,Private,Rural,smokes,overweight,prediabetes,youth
+Male,1,0,Yes,Private,Urban,never smoked,overweight,normal,senior
+Female,0,0,No,Self-employed,Urban,Unknown,obesity,prediabetes,child
+Female,0,0,Yes,Private,Rural,never smoked,overweight,diabetes,senior
+Male,0,1,Yes,Govt_job,Urban,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,middle-aged
+Male,0,0,Yes,Govt_job,Urban,never smoked,obesity,normal,adult
+Male,0,0,No,Self-employed,Urban,never smoked,overweight,normal,senior
+Female,0,0,Yes,Govt_job,Urban,Unknown,obesity,normal,adult
+Female,0,0,Yes,Self-employed,Urban,never smoked,obesity,diabetes,senior
+Female,0,0,Yes,Govt_job,Rural,never smoked,overweight,normal,senior
+Female,0,0,Yes,Private,Urban,Unknown,overweight,normal,adult
+Male,0,0,Yes,Private,Urban,Unknown,obesity,prediabetes,adult
+Female,0,0,Yes,Self-employed,Rural,Unknown,overweight,prediabetes,middle-aged
+Female,0,0,No,children,Urban,Unknown,normal weight,prediabetes,child
+Female,0,0,Yes,Govt_job,Rural,never smoked,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Self-employed,Rural,never smoked,obesity,normal,adult
+Male,0,0,No,Govt_job,Urban,Unknown,normal weight,normal,child
+Male,0,0,No,Private,Rural,smokes,normal weight,normal,child
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,middle-aged
+Male,0,0,No,Private,Urban,smokes,obesity,diabetes,adult
+Female,0,0,No,Private,Rural,never smoked,normal weight,normal,senior
+Female,0,0,Yes,Govt_job,Urban,Unknown,overweight,normal,adult
+Female,1,0,Yes,Govt_job,Urban,never smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Rural,Unknown,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,never smoked,overweight,normal,senior
+Female,0,0,No,Private,Rural,Unknown,obesity,normal,adult
+Female,0,0,Yes,Govt_job,Urban,never smoked,normal weight,normal,middle-aged
+Female,0,0,No,Private,Urban,Unknown,normal weight,normal,child
+Female,0,0,No,Private,Urban,never smoked,overweight,normal,adult
+Female,1,1,Yes,Govt_job,Urban,formerly smoked,overweight,severe diabetes,senior
+Male,0,0,Yes,Private,Rural,Unknown,obesity,normal,adult
+Female,0,0,Yes,Private,Urban,formerly smoked,obesity,prediabetes,senior
+Female,1,0,Yes,Private,Rural,never smoked,normal weight,normal,senior
+Female,0,0,Yes,Private,Rural,never smoked,overweight,diabetes,middle-aged
+Female,0,0,No,Private,Urban,formerly smoked,obesity,normal,youth
+Female,1,0,No,Private,Rural,formerly smoked,obesity,normal,middle-aged
+Female,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,0,0,No,children,Rural,Unknown,underweight,prediabetes,child
+Female,0,1,No,Self-employed,Urban,never smoked,normal weight,prediabetes,senior
+Female,0,0,Yes,Private,Urban,Unknown,obesity,severe diabetes,senior
+Male,0,0,Yes,Private,Urban,never smoked,overweight,normal,youth
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Male,0,0,Yes,Private,Urban,formerly smoked,obesity,diabetes,middle-aged
+Male,1,0,Yes,Self-employed,Rural,Unknown,overweight,normal,senior
+Female,0,0,Yes,Self-employed,Urban,never smoked,normal weight,prediabetes,senior
+Male,0,0,Yes,Govt_job,Urban,smokes,obesity,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,middle-aged
+Female,0,0,No,Private,Rural,Unknown,overweight,normal,child
+Male,0,0,No,children,Rural,Unknown,normal weight,prediabetes,child
+Female,0,0,Yes,Private,Rural,never smoked,obesity,severe diabetes,middle-aged
+Female,0,0,No,Private,Urban,Unknown,obesity,prediabetes,adult
+Female,0,0,No,children,Rural,never smoked,underweight,diabetes,child
+Male,0,0,No,children,Rural,Unknown,normal weight,diabetes,child
+Female,0,0,No,Private,Rural,smokes,normal weight,normal,adult
+Female,0,0,No,Private,Urban,never smoked,normal weight,prediabetes,child
+Female,0,0,No,Private,Urban,never smoked,obesity,normal,youth
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,youth
+Female,0,0,Yes,Private,Rural,never smoked,obesity,normal,senior
+Male,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Male,0,0,No,Self-employed,Rural,formerly smoked,obesity,severe diabetes,senior
+Male,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,senior
+Female,0,0,No,children,Rural,Unknown,normal weight,prediabetes,child
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,1,Yes,Self-employed,Rural,formerly smoked,overweight,severe diabetes,senior
+Female,0,0,Yes,Self-employed,Urban,never smoked,overweight,normal,senior
+Female,0,0,No,Private,Urban,smokes,normal weight,normal,youth
+Female,0,0,No,Private,Urban,formerly smoked,overweight,normal,middle-aged
+Female,0,0,No,Self-employed,Rural,Unknown,normal weight,normal,youth
+Male,0,0,No,children,Rural,Unknown,underweight,normal,child
+Female,0,0,Yes,Private,Rural,smokes,overweight,normal,adult
+Male,0,0,Yes,Private,Rural,Unknown,obesity,diabetes,adult
+Female,0,0,No,children,Urban,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Rural,Unknown,normal weight,normal,youth
+Male,0,0,No,Self-employed,Urban,formerly smoked,obesity,prediabetes,adult
+Female,0,0,Yes,Private,Urban,never smoked,obesity,prediabetes,senior
+Female,0,0,Yes,Private,Urban,Unknown,normal weight,normal,youth
+Female,0,0,Yes,Private,Rural,never smoked,obesity,normal,middle-aged
+Male,0,0,No,Private,Urban,never smoked,normal weight,normal,child
+Male,0,0,No,Private,Urban,formerly smoked,obesity,normal,adult
+Female,0,0,Yes,Govt_job,Urban,never smoked,obesity,prediabetes,adult
+Male,0,0,No,Never_worked,Rural,Unknown,normal weight,diabetes,child
+Female,0,0,No,children,Rural,never smoked,overweight,normal,child
+Female,1,0,Yes,Self-employed,Urban,never smoked,overweight,diabetes,senior
+Female,0,0,No,Private,Urban,never smoked,normal weight,normal,youth
+Female,0,0,Yes,Private,Urban,smokes,overweight,normal,youth
+Male,0,0,Yes,Private,Rural,never smoked,overweight,prediabetes,senior
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,middle-aged
+Female,0,0,Yes,Self-employed,Urban,Unknown,overweight,normal,middle-aged
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,diabetes,adult
+Male,0,0,No,Private,Rural,Unknown,overweight,normal,youth
+Female,0,0,No,Private,Urban,Unknown,normal weight,normal,child
+Female,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,middle-aged
+Female,0,0,No,children,Urban,Unknown,normal weight,prediabetes,child
+Female,1,0,Yes,Self-employed,Urban,never smoked,obesity,normal,senior
+Female,0,0,No,Private,Urban,Unknown,obesity,normal,youth
+Male,0,0,Yes,Govt_job,Urban,Unknown,overweight,normal,middle-aged
+Female,0,0,No,children,Urban,Unknown,underweight,prediabetes,child
+Male,0,0,Yes,Private,Urban,smokes,obesity,normal,youth
+Female,1,0,Yes,Private,Urban,smokes,normal weight,prediabetes,middle-aged
+Male,0,0,No,Private,Urban,Unknown,overweight,normal,adult
+Female,0,0,Yes,Private,Urban,never smoked,overweight,prediabetes,middle-aged
+Female,0,0,No,Private,Rural,never smoked,underweight,normal,child
+Male,0,0,No,children,Rural,Unknown,underweight,diabetes,child
+Female,1,0,Yes,Private,Rural,formerly smoked,overweight,diabetes,senior
+Female,0,0,Yes,Self-employed,Rural,never smoked,obesity,severe diabetes,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,obesity,prediabetes,youth
+Male,0,0,Yes,Private,Urban,formerly smoked,obesity,normal,senior
+Male,0,0,Yes,Govt_job,Urban,formerly smoked,obesity,severe diabetes,middle-aged
+Male,0,0,Yes,Private,Urban,formerly smoked,normal weight,normal,adult
+Female,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Male,0,0,No,Private,Rural,Unknown,obesity,normal,middle-aged
+Female,0,0,No,children,Rural,Unknown,underweight,diabetes,child
+Female,0,0,Yes,Self-employed,Rural,smokes,normal weight,prediabetes,senior
+Male,1,0,Yes,Private,Urban,never smoked,obesity,normal,senior
+Male,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,adult
+Female,0,0,Yes,Private,Urban,smokes,obesity,normal,youth
+Female,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,senior
+Male,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,adult
+Female,0,0,No,Private,Rural,Unknown,obesity,normal,youth
+Female,0,0,Yes,Private,Urban,smokes,normal weight,normal,youth
+Female,0,0,No,Govt_job,Urban,Unknown,obesity,severe diabetes,youth
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Female,0,0,Yes,Self-employed,Urban,never smoked,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,Unknown,overweight,normal,adult
+Female,0,0,Yes,Private,Rural,never smoked,obesity,diabetes,adult
+Male,0,0,No,Never_worked,Rural,never smoked,obesity,prediabetes,child
+Male,0,1,Yes,Self-employed,Urban,smokes,overweight,normal,middle-aged
+Female,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,youth
+Female,0,0,Yes,Govt_job,Rural,smokes,obesity,severe diabetes,adult
+Female,1,1,Yes,Self-employed,Urban,formerly smoked,normal weight,normal,senior
+Female,0,0,Yes,Private,Urban,formerly smoked,obesity,prediabetes,youth
+Female,0,0,No,Private,Urban,smokes,normal weight,normal,youth
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,prediabetes,middle-aged
+Female,0,0,Yes,Private,Rural,smokes,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,middle-aged
+Female,0,0,Yes,Private,Urban,formerly smoked,overweight,normal,adult
+Female,0,0,No,Private,Urban,smokes,overweight,normal,youth
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,normal,adult
+Male,1,0,Yes,Self-employed,Urban,Unknown,obesity,prediabetes,adult
+Female,0,0,Yes,Self-employed,Urban,smokes,overweight,normal,adult
+Female,0,0,Yes,Self-employed,Urban,Unknown,obesity,normal,senior
+Female,0,0,Yes,Govt_job,Rural,smokes,obesity,normal,middle-aged
+Male,1,0,Yes,Self-employed,Rural,never smoked,obesity,diabetes,middle-aged
+Male,0,0,Yes,Self-employed,Urban,Unknown,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Urban,never smoked,normal weight,diabetes,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,obesity,normal,middle-aged
+Male,0,0,No,Private,Rural,Unknown,obesity,normal,youth
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,middle-aged
+Male,0,0,No,children,Rural,Unknown,underweight,normal,child
+Male,0,0,Yes,Private,Rural,never smoked,normal weight,diabetes,youth
+Male,1,1,Yes,Private,Rural,formerly smoked,obesity,normal,senior
+Female,0,0,No,Govt_job,Urban,never smoked,normal weight,prediabetes,youth
+Male,0,0,Yes,Private,Rural,never smoked,obesity,normal,adult
+Female,0,0,Yes,Self-employed,Urban,smokes,overweight,normal,middle-aged
+Male,0,0,No,children,Rural,Unknown,underweight,normal,child
+Female,0,0,No,Private,Urban,never smoked,normal weight,diabetes,youth
+Male,0,0,Yes,Private,Urban,smokes,overweight,normal,middle-aged
+Male,0,0,Yes,Private,Rural,never smoked,overweight,normal,adult
+Male,0,0,Yes,Govt_job,Urban,Unknown,obesity,prediabetes,adult
+Male,0,0,Yes,Private,Urban,smokes,obesity,normal,adult
+Female,0,0,Yes,Private,Rural,Unknown,underweight,normal,middle-aged
+Female,0,0,Yes,Private,Rural,never smoked,normal weight,prediabetes,adult
+Female,0,0,Yes,Private,Urban,Unknown,normal weight,normal,middle-aged
+Female,0,0,Yes,Private,Urban,never smoked,normal weight,prediabetes,youth
+Male,0,0,No,Self-employed,Rural,Unknown,obesity,diabetes,middle-aged
+Female,0,0,Yes,Private,Rural,Unknown,obesity,normal,senior
+Female,0,0,Yes,Self-employed,Urban,formerly smoked,overweight,normal,youth
+Male,0,0,Yes,Private,Urban,Unknown,obesity,diabetes,adult
+Female,0,0,No,children,Urban,Unknown,overweight,normal,child
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,senior
+Male,0,0,No,children,Urban,Unknown,underweight,normal,child
+Male,0,0,Yes,Private,Rural,formerly smoked,overweight,normal,middle-aged
+Female,0,0,No,children,Urban,Unknown,underweight,severe diabetes,child
+Female,1,0,Yes,Private,Rural,never smoked,obesity,severe diabetes,middle-aged
+Male,0,0,No,children,Urban,never smoked,obesity,prediabetes,child
+Female,1,0,Yes,Self-employed,Urban,formerly smoked,overweight,prediabetes,senior
+Male,0,0,No,children,Rural,Unknown,normal weight,normal,child
+Female,0,0,No,children,Rural,Unknown,normal weight,prediabetes,child
+Female,0,0,No,Self-employed,Urban,never smoked,overweight,normal,senior
+Female,0,0,No,Govt_job,Rural,never smoked,obesity,prediabetes,youth
+Female,0,0,Yes,Govt_job,Urban,never smoked,normal weight,normal,adult
+Male,0,0,No,children,Rural,never smoked,obesity,normal,child
+Female,0,0,Yes,Private,Rural,formerly smoked,obesity,normal,middle-aged
