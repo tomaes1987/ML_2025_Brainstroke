@@ -1,3 +1,41 @@
+"""
+==================== Raport Modelu CatBoost (Stroke Prediction) ====================
+
+Cel: Predykcja ryzyka udaru u pacjentów na podstawie danych klinicznych.
+Problem: Silnie niezrównoważone klasy (większość pacjentów nie miała udaru).
+
+Metody:
+- Model: CatBoostClassifier
+- Funkcja celu Optuna: maksymalizacja PR-AUC w cross-validation (10 foldów)
+- Parametry CatBoost optymalizowane przez Optuna: iterations, learning_rate, depth, l2_leaf_reg,
+  min_data_in_leaf, random_strength, bagging_temperature, subsample, colsample_bylevel
+- Eval_metric CatBoost: "Recall" → przyspieszenie nauki klasy 1 i monitorowanie early stopping
+- Class weights: zwiększona waga klasy 1 (1.25 × neg/pos), aby podnieść recall kosztem precision
+- Threshold decyzyjny: 0.35 dla klasy 1
+
+Wyniki (test set):
+- Recall klasy 1: 0.92
+- Precision klasy 1: 0.08
+- F1 klasy 1: 0.15
+- PR-AUC: ~0.237
+- Confusion Matrix:
+    [[TN, FP],
+     [FN, TP]] = [[440, 532],
+                   [4, 46]]
+
+Interpretacja:
+- Wysoki recall klasy 1 jest priorytetem w medycynie (minimalizacja false negatives).
+- Niska precyzja jest akceptowalna w tego typu rzadkich, wysokiego ryzyka zdarzeniach.
+- Strategia jest zgodna z literaturą: PR-AUC jako funkcja celu + eval_metric="Recall" + zwiększone class_weights.
+
+Wnioski:
+- Model skutecznie wychwytuje pacjentów zagrożonych udarem.
+- Możliwa dalsza regulacja precision/recal przez threshold lub drobną zmianę class_weights.
+- Wizualizacja feature importance i SHAP pozwala interpretować wpływ cech na predykcje.
+
+===================================================================================
+"""
+
 import optuna
 from catboost import CatBoostClassifier, Pool
 from sklearn.model_selection import StratifiedKFold
@@ -73,7 +111,7 @@ cat_features = X_train.select_dtypes(include=['category']).columns.tolist()
 # compute class weights
 # --------------------------------------------------------
 neg, pos = y_train.value_counts()
-class_weights = [1, neg / pos]
+class_weights = [1, 1.25 * neg / pos]
 print(f"\nClass weights: {class_weights}")
 
 
@@ -101,7 +139,7 @@ def objective(trial):
         "class_weights": class_weights
     }
 
-    skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
+    skf = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)
     pr_aucs = []
     for train_idx, val_idx in skf.split(X_train, y_train):
         X_tr, X_val = X_train.iloc[train_idx], X_train.iloc[val_idx]
@@ -123,7 +161,10 @@ def objective(trial):
 # --------------------------------------------------------
 # 3. Optuna study
 # --------------------------------------------------------
-study = optuna.create_study(direction="maximize")
+study = optuna.create_study(
+    direction="maximize",
+    sampler = optuna.samplers.TPESampler(seed=42)
+)
 study.optimize(objective, n_trials=50)
 
 best_params = study.best_params
@@ -184,10 +225,13 @@ print(f"Class 1 (stroke) - Recall: {recall_1:.4f}, Precision: {precision_1:.4f},
 explainer = shap.TreeExplainer(final_model)
 shap_values = explainer(X_test)
 
-# Summary plot - global feature importance
+# Summary plot
 shap.summary_plot(shap_values.values, X_test, show=False)
 plt.savefig("figures/shap_summary_plot.png", dpi=300, bbox_inches='tight')
-
+            
+# Summary plot - global feature importance
+shap.summary_plot(shap_values.values, X_test, plot_type="bar", show=False)
+plt.savefig("figures/shap_summary_plot_bar.png", dpi=300, bbox_inches='tight')
 
 # Force plot for a single prediction
 force_plot = shap.force_plot(
@@ -201,6 +245,8 @@ shap.save_html("figures/shap_force_plot_patient_0.html", force_plot)
 # waterfall plot for a single prediction
 shap.plots.waterfall(shap_values[0], show=False)
 plt.savefig("figures/shap_waterfall_plot_patient_0.png", dpi=300, bbox_inches='tight')
+
+
 
 
 
