@@ -1,7 +1,7 @@
 import optuna
 from catboost import CatBoostClassifier, Pool
 from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import classification_report, average_precision_score, confusion_matrix
+from sklearn.metrics import classification_report, average_precision_score, confusion_matrix, recall_score, precision_recall_curve
 import pandas as pd
 import numpy as np
 import shap
@@ -57,65 +57,52 @@ y_test = pd.read_csv("data/processed/y_test.csv")
 
 y_train = y_train.squeeze()
 y_test = y_test.squeeze()
-
-# check shape of y
-
-print("y_train shape:", y_train.shape)
-print("y_test shape:", y_test.shape)  
-# --------------------------------------------------------
+  
+# change dtype of categorical features
 # --------------------------------------------------------
 for dataframe in [X_train, X_test]:
     for col in dataframe.select_dtypes(include=['object']).columns:
         dataframe[col] = dataframe[col].astype('category')
 # change dtype of hypertension, heart_diesase
 for col in ['hypertension', 'heart_disease']:
-    X_train[col] = X_train[col].map(
-        {0: 'No',
-         1: 'Yes'}).astype('category')
-    X_test[col] = X_test[col].map(
-        {0: 'No',
-         1: 'Yes'}).astype('category')
+    X_train[col] = X_train[col].map({0: 'No', 1: 'Yes'}).astype('category')
+    X_test[col] = X_test[col].map({0: 'No', 1: 'Yes'}).astype('category')
     
-# check dtypes
-print(X_train.dtypes)
-print(y_train.dtypes)
-print(X_test.dtypes)
-print(y_test.dtypes)
-
 cat_features = X_train.select_dtypes(include=['category']).columns.tolist()
+
+# compute class weights
 # --------------------------------------------------------
-# --------------------------------------------------------
-# obliczenie wag klas dla niezrównoważonych danych
-# class weights calculation for imbalanced data 
 neg, pos = y_train.value_counts()
 class_weights = [1, neg / pos]
 print(f"\nClass weights: {class_weights}")
 
+
 # --------------------------------------------------------
-# 2. Funkcja celu – Optuna maksymalizuje F1 klasy 1
-# 2. Objective function - Optuna maximizes F1 for class 1
+# 2. Funkcja celu – Optuna maksymalizuje PR-AUC
+# 2. Objective function - Optuna maximizes PR-AUC
 # --------------------------------------------------------
 def objective(trial):
 
     # Parameters to optimize
     params = {
-        "iterations": trial.suggest_int("iterations", 300, 1000),
-        "learning_rate": trial.suggest_float("learning_rate", 0.01, 0.15),
-        "depth": trial.suggest_int("depth", 5, 8),
-        "l2_leaf_reg": trial.suggest_float("l2_leaf_reg", 3, 20),
-        "random_strength": trial.suggest_float("random_strength", 1, 30),
+        "iterations": trial.suggest_int("iterations", 300, 800),
+        "learning_rate": trial.suggest_float("learning_rate", 0.01, 0.05),
+        "depth": trial.suggest_int("depth", 4, 8),
+        "l2_leaf_reg": trial.suggest_float("l2_leaf_reg", 3, 15),
+        "min_data_in_leaf": trial.suggest_int("min_data_in_leaf",10, 80),
+        "random_strength": trial.suggest_float("random_strength", 1, 20),             
         "bagging_temperature": trial.suggest_float("bagging_temperature", 0, 5),
-        "eval_metric": "F1",
+        "subsample": trial.suggest_float("subsample", 0.7, 1.0),
+        "colsample_bylevel": trial.suggest_float("colsample_bylevel", 0.5, 1.0),
+        "eval_metric": "Recall",
         "cat_features": cat_features,
         "random_seed": 42,
         "verbose": 0,
-        "class_weights": class_weights,
+        "class_weights": class_weights
     }
 
-    # Cross-validation
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
-    f1_scores = []
-
+    pr_aucs = []
     for train_idx, val_idx in skf.split(X_train, y_train):
         X_tr, X_val = X_train.iloc[train_idx], X_train.iloc[val_idx]
         y_tr, y_val = y_train.iloc[train_idx], y_train.iloc[val_idx]
@@ -123,17 +110,15 @@ def objective(trial):
         train_pool = Pool(X_tr, y_tr, cat_features=cat_features)
         val_pool = Pool(X_val, y_val, cat_features=cat_features)
 
-        # Model with current parameters
         model = CatBoostClassifier(**params)
         model.fit(train_pool, eval_set=val_pool, early_stopping_rounds=100, verbose=0)
 
-        preds = model.predict(X_val)
+        probs = model.predict_proba(X_val)[:, 1]
 
-        # Calculate F1 for class 1
-        f1_1 = classification_report(y_val, preds, output_dict=True)["1"]["f1-score"]
-        f1_scores.append(f1_1)
+        pr_auc = average_precision_score(y_val, probs)
+        pr_aucs.append(pr_auc)
 
-    return np.mean(f1_scores)
+    return np.mean(pr_aucs)
 
 # --------------------------------------------------------
 # 3. Optuna study
@@ -141,13 +126,13 @@ def objective(trial):
 study = optuna.create_study(direction="maximize")
 study.optimize(objective, n_trials=50)
 
+best_params = study.best_params
+
 print("\n============================")
 print(" Najlepsze parametry Optuna ")
 print("============================")
-print(study.best_params)
-print(f"\nBest mean F1: {study.best_value:.4f}")
-
-best_params = study.best_params
+print(best_params)
+print(f"\nBest mean PR-AUC: {study.best_value:.4f}")
 
 # --------------------------------------------------------
 # 4. Final model training on full training set
@@ -156,7 +141,7 @@ print("\nTrening of final model on full training set...")
 
 final_model = CatBoostClassifier(
     **best_params,
-    eval_metric="F1",
+    eval_metric="Recall",
     class_weights=class_weights,
     cat_features=cat_features,
     random_seed=42,
@@ -170,8 +155,8 @@ print("Model trained.")
 # 5. Final evaluation on test set
 # --------------------------------------------------------
 
-y_pred = final_model.predict(X_test)
-y_proba = final_model.predict_proba(X_test)[:, 1]
+probs_test = final_model.predict_proba(X_test)[:, 1]
+y_pred = (probs_test > 0.35).astype(int)
 
 # confusion matrix
 print("\nConfusion Matrix:")
@@ -182,7 +167,7 @@ print("\nClassification Report:\n")
 print(classification_report(y_test, y_pred, digits=3))
 
 # PR-AUC
-pr_auc = average_precision_score(y_test, y_proba)
+pr_auc = average_precision_score(y_test, probs_test)
 print(f"PR-AUC: {pr_auc:.4f}")
 
 # Results for class 1 (stroke)
@@ -216,3 +201,8 @@ shap.save_html("figures/shap_force_plot_patient_0.html", force_plot)
 # waterfall plot for a single prediction
 shap.plots.waterfall(shap_values[0], show=False)
 plt.savefig("figures/shap_waterfall_plot_patient_0.png", dpi=300, bbox_inches='tight')
+
+
+
+
+
