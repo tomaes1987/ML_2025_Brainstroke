@@ -226,17 +226,28 @@ explainer = shap.TreeExplainer(final_model)
 shap_values = explainer(X_test)
 
 # Summary plot
+plt.figure(figsize=(10,8))
 shap.summary_plot(shap_values.values, X_test, show=False)
+plt.tight_layout()
 plt.savefig("figures/shap_summary_plot.png", dpi=300)
-plt.clf()  # Clear the figure for the next plot
+plt.clf()
             
 # Summary plot - global feature importance
+plt.figure(figsize=(20,18))
 shap.summary_plot(shap_values.values, X_test, plot_type="bar", show=False)
+plt.tight_layout()
 plt.savefig("figures/shap_summary_plot_bar.png", dpi=300)
-plt.clf()  # Clear the figure for the next plot
+plt.clf() 
+
+# Beeswarm plot
+plt.figure(figsize=(12,8))
+shap.summary_plot(shap_values.values, X_test, plot_type="dot", show=False)
+plt.tight_layout()
+plt.savefig("figures/shap_beeswarm_plot.png", dpi=300)
+plt.clf()
 
 # Generate force plots for multiple predictions
-for i in range(5):  # Generate force plots for the first 5 predictions
+for i in range(5):
     force_plot = shap.force_plot(
         base_value=shap_values.base_values[i],
         shap_values=shap_values.values[i],
@@ -245,10 +256,11 @@ for i in range(5):  # Generate force plots for the first 5 predictions
     shap.save_html(f"figures/shap_force_plot_patient_{i}.html", force_plot)
 
 # Generate waterfall plots for multiple predictions
-for i in range(5):  # Generate waterfall plots for the first 5 predictions
+for i in range(5):
     shap.plots.waterfall(shap_values[i], show=False)
+    plt.tight_layout()
     plt.savefig(f"figures/shap_waterfall_plot_patient_{i}.png", dpi=300)
-    plt.clf()  # Clear the figure for the next plot
+    plt.clf()
 
 
 
