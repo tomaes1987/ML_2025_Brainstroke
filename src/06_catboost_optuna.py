@@ -9,7 +9,7 @@ Metody:
 - Funkcja celu Optuna: maksymalizacja PR-AUC w cross-validation (10 foldów)
 - Parametry CatBoost optymalizowane przez Optuna: iterations, learning_rate, depth, l2_leaf_reg,
   min_data_in_leaf, random_strength, bagging_temperature, subsample, colsample_bylevel
-- Eval_metric CatBoost: "Recall" → przyspieszenie nauki klasy 1 i monitorowanie early stopping
+- Eval_metric CatBoost: "Recall" → przyspieszenie nauki klasy 1
 - Class weights: zwiększona waga klasy 1 (1.25 × neg/pos), aby podnieść recall kosztem precision
 - Threshold decyzyjny: 0.35 dla klasy 1
 
@@ -227,24 +227,28 @@ shap_values = explainer(X_test)
 
 # Summary plot
 shap.summary_plot(shap_values.values, X_test, show=False)
-plt.savefig("figures/shap_summary_plot.png", dpi=300, bbox_inches='tight')
+plt.savefig("figures/shap_summary_plot.png", dpi=300)
+plt.clf()  # Clear the figure for the next plot
             
 # Summary plot - global feature importance
 shap.summary_plot(shap_values.values, X_test, plot_type="bar", show=False)
-plt.savefig("figures/shap_summary_plot_bar.png", dpi=300, bbox_inches='tight')
+plt.savefig("figures/shap_summary_plot_bar.png", dpi=300)
+plt.clf()  # Clear the figure for the next plot
 
-# Force plot for a single prediction
-force_plot = shap.force_plot(
-    base_value=shap_values.base_values[0],
-    shap_values=shap_values.values[0],
-    features=X_test.iloc[0]
-)
-shap.save_html("figures/shap_force_plot_patient_0.html", force_plot)
+# Generate force plots for multiple predictions
+for i in range(5):  # Generate force plots for the first 5 predictions
+    force_plot = shap.force_plot(
+        base_value=shap_values.base_values[i],
+        shap_values=shap_values.values[i],
+        features=X_test.iloc[i]
+    )
+    shap.save_html(f"figures/shap_force_plot_patient_{i}.html", force_plot)
 
-
-# waterfall plot for a single prediction
-shap.plots.waterfall(shap_values[0], show=False)
-plt.savefig("figures/shap_waterfall_plot_patient_0.png", dpi=300, bbox_inches='tight')
+# Generate waterfall plots for multiple predictions
+for i in range(5):  # Generate waterfall plots for the first 5 predictions
+    shap.plots.waterfall(shap_values[i], show=False)
+    plt.savefig(f"figures/shap_waterfall_plot_patient_{i}.png", dpi=300)
+    plt.clf()  # Clear the figure for the next plot
 
 
 
