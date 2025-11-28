@@ -239,13 +239,6 @@ plt.tight_layout()
 plt.savefig("figures/shap_summary_plot_bar.png", dpi=300)
 plt.clf() 
 
-# Beeswarm plot
-plt.figure(figsize=(12,8))
-shap.summary_plot(shap_values.values, X_test, plot_type="dot", show=False)
-plt.tight_layout()
-plt.savefig("figures/shap_beeswarm_plot.png", dpi=300)
-plt.clf()
-
 # Generate force plots for multiple predictions
 for i in range(5):
     force_plot = shap.force_plot(

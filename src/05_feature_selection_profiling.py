@@ -59,8 +59,6 @@ Analiza wyników feature selection – komentarz dla projektu
 --------------------------------------------------------------------------------
 - Cramér’s V i PR-AUC dla pojedynczych zmiennych służą do szybkiej selekcji zmiennych i zrozumienia korelacji (exploratory analysis).  
 - Feature importance z LightGBM pokazuje, które zmienne naprawdę pomagają modelowi (multivariate predictive importance).  
-- W medycznym kontekście (np. udar) patrzymy głównie na **precyzję**, żeby nie robić fałszywych alarmów, ale warto też mieć wysokie PR-AUC – wtedy model dobrze balansuje precision i recall.
-
 ================================================================================
 """
 
@@ -114,6 +112,7 @@ for feature in features.columns:
         print(f"Cramér's V between {feature} and stroke: {cv:.4f}")
 
 #PR-AUC test for single categorical features
+#if PR-AUC is low, feature has low predictive power alone
 #------------------------------------------------------------------------
 #------------------------------------------------------------------------
 #------------------------------------------------------------------------
@@ -121,6 +120,7 @@ pr_auc_df = all_feature_pr_auc(pd.concat([X_train, y_train], axis=1), 'stroke', 
 print(pr_auc_df)
 
 #Full model feature importance based on PR-AUC
+#Unique imput of feature in LightGBM model
 #------------------------------------------------------------------------
 #------------------------------------------------------------------------
 #------------------------------------------------------------------------
