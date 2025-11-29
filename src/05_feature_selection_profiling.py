@@ -4,64 +4,6 @@ from ydata_profiling import ProfileReport
 import webbrowser
 from pathlib import Path
 
-"""
-================================================================================
-Analiza wyników feature selection – komentarz dla projektu
-================================================================================
-
-1. Cramér’s V – zależność statystyczna
---------------------------------------------------------------------------------
-- Cramér’s V pokazuje, jak mocno pojedyncza zmienna jest powiązana z 'stroke' 
-  (miara siły asocjacji kategorialnej). Skala 0-1: 0 = brak zależności, 1 = pełna zależność.
-- To **tylko korelacja**, nie predykcja (statystyczna miara powiązania, nie ocena klasyfikatora).
-- Przykład: 'age' może mieć wysoki Cramér’s V, bo starsi ludzie częściej mają udar, 
-  ale sam wiek niekoniecznie rozdzieli przypadki idealnie.
-
-2. PR-AUC i pojedyncze zmienne
---------------------------------------------------------------------------------
-- PR-AUC (Precision-Recall Area Under Curve) mierzy zdolność pojedynczej zmiennej
-  do rozróżniania przypadków 'stroke' (pozytywne) vs 'no stroke' (negatywne), 
-  szczególnie przy nierównomiernym rozkładzie klas (imbalanced dataset).
-- **Precision (precyzja)** – odsetek prawdziwych przypadków 'stroke' wśród przewidzianych jako 'stroke' (miara pozytywnej predyktywnej wartości, PPV).  
-- **Recall (czułość, sensitivity)** – odsetek wykrytych rzeczywistych przypadków 'stroke' (True Positive Rate, TPR).  
-- **Accuracy (dokładność)** – odsetek wszystkich poprawnych przewidywań (zarówno 'stroke' jak i 'no stroke').
-
-- Macierz błędów (confusion matrix) pomaga to zobrazować:
-
-      Prawdziwe:       Predykcja:
-                       stroke  no stroke
-      stroke           8       2
-      no stroke        3       87
-
-  Obliczenia:
-  - Precision = 8 / (8+3) ≈ 0.73
-  - Recall = 8 / (8+2) = 0.8
-  - Accuracy = (8+87)/100 = 0.95
-
-- PR-AUC (pole pod krzywą precision-recall) łączy precision i recall przy różnych progach decyzyjnych,
-  pokazując ogólną jakość predykcyjną zmiennej w klasyfikacji 'stroke'.
-
-3. Co ważne w medycznej klasyfikacji
---------------------------------------------------------------------------------
-- W przypadku przewidywania udaru, **ważne jest, jakie błędy są krytyczne** (decision cost).
-- Jeśli chcemy unikać fałszywych alarmów (false positives), **precision priorytetem**.  
-- Recall (czułość) też się liczy, bo nie chcemy przeoczyć prawdziwego udaru, ale można świadomie zaakceptować niższy recall, jeśli zależy nam na ograniczeniu FP.
-- PR-AUC jest przydatne, bo syntetycznie pokazuje, jak zmienna balansuje precision i recall (performance measure dla klasy rzadkiej, imbalanced).
-
-4. Feature importance w LightGBM
---------------------------------------------------------------------------------
-- Modele drzewiaste patrzą na wszystkie zmienne razem (multivariate analysis).  
-- Jeśli inna zmienna dobrze wyjaśnia ryzyko udaru, informacja z 'age' może być „przejęta” przez tę zmienną.  
-- Dlatego feature importance 'age' w modelu może być niższa niż w testach univariate.  
-- W skrócie: pojedyncza zmienna może wyglądać ważnie statystycznie, ale w modelu jej znaczenie zależy od innych cech (conditional importance).
-
-5. Kluczowe wnioski
---------------------------------------------------------------------------------
-- Cramér’s V i PR-AUC dla pojedynczych zmiennych służą do szybkiej selekcji zmiennych i zrozumienia korelacji (exploratory analysis).  
-- Feature importance z LightGBM pokazuje, które zmienne naprawdę pomagają modelowi (multivariate predictive importance).  
-================================================================================
-"""
-
 X_train = pd.read_csv("data/processed/X_train_final.csv")
 y_train = pd.read_csv("data/processed/y_train.csv")
 
@@ -156,32 +98,3 @@ test_path = Path("reports/test_post_imputation.html").resolve()
 
 webbrowser.open(train_path.as_uri())
 webbrowser.open(test_path.as_uri())
-
-# Comment and Interpretation
-# High correlation: 
-# The correlations observed are expected given the nature of the dataset. 
-# For example, age and ever_married are logically connected, and some work_type categories are mutually exclusive.
-# These correlations do not indicate data quality issues but rather inherent relationships in the data.
-
-# Imbalance: 
-# Some features, including hypertension and heart_disease show class imbalance.
-# This reflects real-world distribution in the dataset and is not a data quality issue. 
-# Catboost and other algorithms can handle such imbalances effectively.
-
-# Differences in data types between train and test reports:
-# They are no differences in the data types between train and test reports.
-
-# Conclusions
-# Single correlation and PR-AUC analyses help identify potentailly useful features,
-# hoewever, true feature importance is determined in a multivariate context using models like LightGBM.
-# The relative low number of features in the train set, along with that all of them 
-# has some predicitive power, make that all features should be retained for modeling.
-
-# The dataset is ready for modeling:
-# No missing values remain.
-# Categorical variables does not have to be encoded, as catboost can handle category types directly
-# and make it more efficient.
-# There are no numerical features, because catboost is better with categorical features.
-# Catboost handles also non-linear relationships and feature interactions, so correlations and class imbalance
-# Catboost also hanldes missing values internally, but in our case there are no missing values.
-

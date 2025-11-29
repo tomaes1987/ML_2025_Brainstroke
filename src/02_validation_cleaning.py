@@ -1,22 +1,3 @@
-
-"""
-This section performs data validation and cleaning on the df_raw DataFrame:
-- Encode the 'ever_married' column to binary.
-- Verifies numeric columns to ensure no text values are present.
-- Checks text columns for numeric values, which may indicate data entry errors.
-- Identifies duplicate rows in the dataset.
-- Performs sanity checks on numeric columns (age, BMI, glucose levels) to ensure values fall within realistic ranges.
-- Detects logical inconsistencies in the data, such as:
-    - Children (<16 years) assigned non-child work types.
-    - Children (<18 years) marked as married.
-    - Unrealistic BMI values for young children (<5 years).
-    - Smoking history for children with "children" work type.
-    - Stroke occurrences in children (<10 years).
-- Investigates medical inconsistencies, such as hypertension or heart disease in children (<18 years).
-- Analyzes glucose level distributions for patients with and without strokes.
-- Categorizes age into groups and calculates hypertension rates by age group and work type.
-This ensures the dataset is clean, consistent, and ready for further analysis or modeling.
-"""
 import numpy as np
 import pandas as pd
 import os
